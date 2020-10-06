@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
-
+    android:padding="16dp"
+    tools:context=".OptionDialogFragment">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/question_coach" />
+        android:text="@string/question_YG" />
     <RadioGroup
         android:id="@+id/rg_options"
         android:layout_width="match_parent"
@@ -21,25 +21,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/sir_alex_ferguson" />
+            android:text="@string/BigBang" />
         <RadioButton
             android:id="@+id/rb_mou"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/jose_mourinho" />
+            android:text="@string/iKON" />
         <RadioButton
             android:id="@+id/rb_lvg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/louis_van_gaal" />
+            android:text="@string/Winner" />
         <RadioButton
             android:id="@+id/rb_moyes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/david_moyes" />
+            android:text="@string/Treasure" />
     </RadioGroup>
     <LinearLayout
         android:layout_width="match_parent"
